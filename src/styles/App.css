@@ -1,38 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root{
+  --color1: #2F3E46;
+  --color2: #354F52;
+  --color3: #52796F;
+  --color4: #84A98C;
+  --color5: #CAD2C5; 
+}
+
 .App {
   text-align: center;
+  background-color: var(--color5);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.hero{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: var(--color3);
+  height: calc(85vh - 60px);
+  font-family: 'Bebas Neue', cursive;
   color: white;
+  justify-content: space-around;
 }
 
-.App-link {
-  color: #61dafb;
+.heroText{
+  max-width: 30vw;
+  margin-left: 15vw;
+  text-align: left;
+  padding-top: 10vh;
+  font-size: 2.9em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.heroImage{
+  border-radius: 45px;
+  margin: auto;
+  height: 100%;
+}
+
+.heroButton{
+  height: 50px;
+  width: 8vw;
+  font-size: 20px;
+  font-family: 'Bebas Neue', cursive;
+  margin-right: 20px;
+  background-color: var(--color5);
+  border-radius: 15px;
+}
+
+.hero-btn{
+  display: flex;
+  margin-left: 15vw;
 }
