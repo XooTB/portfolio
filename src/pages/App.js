@@ -2,6 +2,7 @@ import '../styles/App.css';
 import NavBar from '../containers/NavBar';
 import Hero from '../containers/Hero';
 import About from '../containers/About';
+import Projects from '../containers/Projects'
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <NavBar />
       <Hero />
       <About /> 
+      <Projects /> 
     </div>
   );
 }
