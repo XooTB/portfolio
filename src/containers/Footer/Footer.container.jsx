@@ -11,14 +11,14 @@ function Footer() {
     return (
         <div className="footer">
             <div className="credits">
-                <img src={copyWrite} />
+                <img src={copyWrite} className='Icon' />
                 <p>2022 - Samiul Alim</p>
             </div>
             <div className="socialMedia">
-                <a className="smIcon"><img src={github} /></a>
-                <a className="smIcon"><img src={facebook} /></a>
-                <a className="smIcon"><img src={instagram} /></a>
-                <a className="smIcon"><img src={blogger} /></a>
+                <a className="smIcon"><img src={github} className='Icon' /></a>
+                <a className="smIcon"><img src={facebook} className='Icon' /></a>
+                <a className="smIcon"><img src={instagram} className='Icon' /></a>
+                <a className="smIcon"><img src={blogger} className='Icon' /></a>
             </div>
         </div>
     )

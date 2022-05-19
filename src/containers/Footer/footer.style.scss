@@ -1,0 +1,19 @@
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--color4);
+    align-items: center;
+
+    .credits {
+        display: flex;
+        width: 20%;
+        align-items: center;
+        font-family: 'Dongle', sans-serif;
+        font-size: 22px;
+    }
+
+    .Icon {
+        height: 30px;
+        padding-right: 5px;
+    }
+}
