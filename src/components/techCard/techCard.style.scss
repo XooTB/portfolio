@@ -1,0 +1,15 @@
+.techCard {
+    height: 11vh;
+    width: 100%;
+    background-color: var(--color4);
+    border-radius: 20px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+    .text {
+        font-size: 1.7vw;
+        font-family: 'Dongle', sans-serif;
+
+    }
+}

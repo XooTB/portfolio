@@ -1,0 +1,76 @@
+.techGrid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    width: 60%;
+    margin: auto;
+    column-gap: 10px;
+    row-gap: 10px;
+
+    .techContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tech0 {
+        grid-row: 1 / span 4;
+
+    }
+
+    .tech1 {
+        grid-row: 1 / span 3;
+        grid-column: 2 / 3;
+    }
+
+    .tech2 {
+        grid-row: 2 / span 4;
+        grid-column: 2 / 3;
+
+
+    }
+
+    .tech3 {
+        grid-row: 1 / 2;
+        grid-column: 3 / 4;
+    }
+
+    .tech4 {
+        grid-row: 2 / 3;
+        grid-column: 3 / 4;
+    }
+
+    .tech5 {
+        grid-row: 3 / 4;
+        grid-column: 3 / 4;
+    }
+
+    .tech6 {
+        grid-row: 4 / 4;
+        grid-column: 3 / 4;
+    }
+
+    .tech7 {
+        grid-row: 1 / span 3;
+        grid-column: 4 / 5;
+    }
+
+    .tech8 {
+        grid-row: 2 / span 4;
+        grid-column: 4 / 5;
+    }
+
+    .tech9 {
+        grid-row: 1 / span 4;
+        grid-column: 5 / 5;
+    }
+
+}
+
+
+.techTitle {
+    font-family: 'Dongle', sans-serif;
+    font-size: 50px;
+    color: var(--color2);
+    text-align: center;
+}

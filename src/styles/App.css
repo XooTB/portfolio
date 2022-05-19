@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap');
 
-:root{
+:root {
   --color1: #2F3E46;
   --color2: #354F52;
   --color3: #52796F;
   --color4: #84A98C;
-  --color5: #CAD2C5; 
+  --color5: #CAD2C5;
 }
 
 .App {
@@ -13,7 +14,7 @@
   background-color: var(--color5);
 }
 
-.hero{
+.hero {
   display: flex;
   background-color: var(--color3);
   height: calc(85vh - 60px);
@@ -22,7 +23,7 @@
   justify-content: space-around;
 }
 
-.heroText{
+.heroText {
   max-width: 30vw;
   margin-left: 15vw;
   text-align: left;
@@ -30,13 +31,13 @@
   font-size: 2.9em;
 }
 
-.heroImage{
+.heroImage {
   border-radius: 45px;
   margin: auto;
   height: 100%;
 }
 
-.heroButton{
+.heroButton {
   height: 50px;
   width: 8vw;
   font-size: 20px;
@@ -46,7 +47,7 @@
   border-radius: 15px;
 }
 
-.hero-btn{
+.hero-btn {
   display: flex;
   margin-left: 15vw;
 }
