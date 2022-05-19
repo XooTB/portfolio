@@ -8,6 +8,18 @@
         height: 100%;
         width: 50%;
         text-align: left;
+        font-size: 1.1em;
+
+        .linkTitle {
+            float: left;
+            padding-left: 80px;
+        }
+
+        .githubIcon {
+            height: 30px;
+            padding: 20px;
+            padding-top: 12px;
+        }
     }
 }
 
@@ -33,6 +45,9 @@
         padding: 10px;
         font-family: 'Dongle', sans-serif;
         font-size: 22px;
+        overflow: hidden;
+        word-wrap: break-word;
+
 
         .p {
             padding-left: 20px;
