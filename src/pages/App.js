@@ -4,6 +4,8 @@ import Hero from '../containers/Hero';
 import About from '../containers/About';
 import Projects from '../containers/projects/Projects';
 import Tech from '../containers/tech/Tech.container';
+import HomeContact from '../containers/homeContact/homeContact.component';
+import Footer from '../containers/Footer/Footer.container';
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <About />
       <Projects />
       <Tech />
+      <HomeContact />
+      <Footer />
     </div>
   );
 }
