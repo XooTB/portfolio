@@ -1,0 +1,33 @@
+.projects {
+
+    height: 1000px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+
+
+    .prj-title {
+        font-family: 'Dongle', sans-serif;
+        font-size: 50px;
+        margin-bottom: 0px;
+        color: var(--color2);
+    }
+
+    &::-webkit-scrollbar {
+        width: 10px;
+
+
+    }
+
+    &::-webkit-scrollbar-track {
+        border-radius: 10px;
+
+    }
+
+    &::-webkit-scrollbar-thumb {
+        width: 7px;
+        background: var(--color3);
+        border-radius: 10px;
+    }
+
+}

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import './projects.style.scss'
 import ProjectLeft from "../../components/project-left/ProjectLeft.component";
 import ProjectRight from "../../components/project-right/ProjectRight.component";
 import { db } from "../../firebase-config";
@@ -25,8 +26,11 @@ function Projects() {
 
 
     return (
-        <div className="projects">
-            {projectElements}
+        <div className="" id="projects">
+            <h1 className="prj-title">Projects: </h1>
+            <div className="projects">
+                {projectElements}
+            </div>
         </div>
     );
 };

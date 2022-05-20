@@ -7,10 +7,10 @@ function Hero() {
         <div className="hero">
             <div>
                 <h1 className="heroText">Full-Stack JavaScript Developer with a Knack for Madness...</h1>
-                <div className="hero-btn">
+                {/* <div className="hero-btn">
                     <HeroButton text="Projects" />
                     <HeroButton text="Contact" />
-                </div>
+                </div> */}
             </div>
             <img src={image} alt="hero_Image" className="heroImage" />
         </div>

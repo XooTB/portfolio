@@ -19,11 +19,13 @@
   background-color: var(--color3);
   height: calc(85vh - 60px);
   font-family: 'Bebas Neue', cursive;
+  font-weight: 200;
   color: white;
   justify-content: space-around;
 }
 
 .heroText {
+  font-weight: 500;
   max-width: 30vw;
   margin-left: 15vw;
   text-align: left;
