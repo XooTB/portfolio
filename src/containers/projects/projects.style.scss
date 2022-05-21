@@ -1,33 +1,35 @@
 .projects {
 
-    height: 1000px;
+    height: 850px;
     overflow-x: hidden;
     overflow-y: scroll;
-
-
-
-    .prj-title {
-        font-family: 'Dongle', sans-serif;
-        font-size: 50px;
-        margin-bottom: 0px;
-        color: var(--color2);
-    }
+    background-color: var(--color5);
+    width: 80vw;
+    margin: auto;
+    border-radius: 20px;
 
     &::-webkit-scrollbar {
         width: 10px;
-
+        height: 50%;
 
     }
 
     &::-webkit-scrollbar-track {
         border-radius: 10px;
-
     }
 
     &::-webkit-scrollbar-thumb {
         width: 7px;
-        background: var(--color3);
+        background: var(--color2);
         border-radius: 10px;
+
     }
 
+}
+
+.prj-title {
+    font-family: 'Dongle', sans-serif;
+    font-size: 50px;
+    margin-bottom: 0px;
+    color: var(--color2);
 }
